@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #111111;
+    --color-electric-green: #58C91A;
+    --color-dark-green: #126B20;
+    --color-accent-red: #E00000;
+    --color-accent-orange: #FF6500;
+    --color-light-grey: #F4F6F5;
+    --color-dark-bg: #070907;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #070907;
+    color: #F4F6F5;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-devanagari {
+    font-family: 'Noto Sans Devanagari', 'Poppins', sans-serif;
+  }
+
+  .font-heading {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Custom EV Glowing utilities */
+.glow-green {
+  box-shadow: 0 0 25px -5px rgba(88, 201, 26, 0.4);
+}
+
+.glow-green-sm {
+  box-shadow: 0 0 15px -3px rgba(88, 201, 26, 0.35);
+}
+
+.glow-green-lg {
+  box-shadow: 0 0 45px -5px rgba(88, 201, 26, 0.5);
+}
+
+.text-glow-green {
+  text-shadow: 0 0 15px rgba(88, 201, 26, 0.5);
+}
+
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(88, 201, 26, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(88, 201, 26, 0.05) 1px, transparent 1px);
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(rgba(88, 201, 26, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #070907;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2c1e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #58C91A;
+}
+

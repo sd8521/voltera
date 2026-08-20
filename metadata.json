@@ -1,0 +1,6 @@
+{
+  "name": "VoltEra E-BIKE",
+  "description": "Official EV website for VoltEra E-BIKE - Premium Electric Mobility & Scooters in Bhadohi. Ride the Future, Ride Safe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
